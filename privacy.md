@@ -40,7 +40,7 @@ While you are signed in, the app syncs four kinds of data to our database (a Sup
 
 PoolHelp's core features (test logging, dosing math, reminders, charts) run entirely on your device and send nothing off it.
 
-The AI features are optional: the chat assistant, photo diagnosis, photo pool sizing, and test-strip scanning. When you use one, the app sends only the content needed to answer that request, over an encrypted connection (HTTPS), to PoolHelp's AI server:
+The AI features are optional: the chat assistant, photo diagnosis, and test-strip scanning. When you use one, the app sends only the content needed to answer that request, over an encrypted connection (HTTPS), to PoolHelp's AI server:
 
 - For chat questions, that is your question plus a summary of your pool: the profile details you entered (which can include the pool's name and a location if you added one), recent test readings, and recent chemical additions.
 - For photo features, that is the photo you take or select, plus the same kind of pool summary where relevant.

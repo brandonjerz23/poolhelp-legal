@@ -1,6 +1,6 @@
 # PoolHelp Terms of Service
 
-**Last updated: July 12, 2026**
+**Last updated: August 5, 2026**
 
 Welcome to PoolHelp. By downloading or using the app, you agree to these terms. Please read them alongside our **Privacy Policy** and our **Safety & Disclaimer**, which are part of these terms.
 
@@ -16,7 +16,7 @@ PoolHelp does not require an account. By default, your data is stored only on yo
 
 ## 3. Optional AI features
 
-AI features (the assistant, photo diagnosis, photo pool sizing, and test-strip scanning) are optional. When you use one, the request content (your question or photo, plus a summary of your pool's readings and profile) is sent to PoolHelp's AI service, which forwards it to Anthropic to generate the response (see the Privacy Policy for details). When the AI service is unavailable, these features run in an on-device demo mode.
+AI features (the assistant, photo diagnosis, and test-strip scanning) are optional. When you use one, the request content (your question or photo, plus a summary of your pool's readings and profile) is sent to PoolHelp's AI service, which forwards it to Anthropic to generate the response (see the Privacy Policy for details). When the AI service is unavailable, these features run in an on-device demo mode.
 
 - AI output can be incomplete or wrong. Treat it as a starting point, not a final answer, and verify anything important (see Section 5).
 - We may change, limit, or discontinue AI features, or make them part of a paid tier, at any time.
