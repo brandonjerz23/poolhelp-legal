@@ -26,7 +26,7 @@ Unless you create an account and sign in, this data lives **only on your device*
 
 ## Optional account and sync
 
-You can create an optional PoolHelp account (email address and password) to back up your pool data and sync it across devices. The app is fully functional without one, and in builds where no sync backend is configured, accounts are not available at all.
+You can create an optional PoolHelp account to back up your pool data and sync it across devices — with an email address and password, or with Sign in with Apple. Apple's option lets you hide your real email address; the private relay address Apple creates is then the address we receive. The app is fully functional without one, and in builds where no sync backend is configured, accounts are not available at all.
 
 While you are signed in, the app syncs four kinds of data to our database (a Supabase Postgres project operated by us): your pools, water test logs, chemical/dosing logs, and reminders. Chat history and diagnosis history are never synced; they stay on your device.
 
