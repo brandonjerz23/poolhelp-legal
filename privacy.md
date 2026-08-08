@@ -8,7 +8,7 @@ PoolHelp is built to be private by default. This policy explains, in plain Engli
 
 - PoolHelp does **not** require an account. You can create one, but it is optional and used only for backup and sync.
 - By default, all of your pool data stays **on your device**. We do not collect it, sync it to a cloud, or keep copies of it unless you create an account and sign in; see "Optional account and sync" below.
-- We do **not** use analytics, tracking, advertising, or third-party marketing SDKs.
+- We do **not** use analytics, tracking, advertising, or third-party marketing SDKs. The one technical exception: anonymous crash reports, so the app can be fixed when it breaks; see "Crash reports" below.
 - Beyond optional sync, the only data that leaves your device is the content of a request when **you** use an optional AI feature: your question and a summary of your pool, and/or the photo you selected. That content is sent to PoolHelp's AI server, which passes it to Anthropic to generate the response. Neither stores your pool data; see "The optional AI features" below.
 
 ## What data the app stores on your device
@@ -60,6 +60,10 @@ You can manage or cancel the subscription any time in your App Store settings. C
 ## Camera and photo library
 
 PoolHelp requests camera and photo-library access only so you can pick or take an image for the AI photo features. Images are used to build that single request as described above and are not otherwise collected or stored by us. The app does not browse or upload your photo library in the background.
+
+## Crash reports
+
+If the app crashes or hits an unexpected error, a technical report is sent to Sentry, a crash-reporting service, so we can find and fix the bug. The report contains technical details only: the error and where in the code it happened, your device model, OS version, and app version. It does not include your pool data, photos, questions, chat history, or account identity, and it is not used for advertising or tracking. Sentry's handling of this data is governed by its own privacy policy at sentry.io/privacy.
 
 ## Reminders and notifications
 
